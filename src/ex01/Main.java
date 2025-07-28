@@ -3,6 +3,7 @@
 em seguida imprima na tela a soma entre A e B e
  mostre se a soma é menor que C.
  */
+
 package ex01;
 
 import java.util.Scanner;

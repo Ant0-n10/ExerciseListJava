@@ -9,8 +9,26 @@ imprimir seu valor na tela.
 
 package ex03;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("entre com o primeiro valor:");
+       float A = sc.nextFloat();
+        System.out.println("entre com o segundo valor:");
+       float B = sc.nextFloat();
+       float C;
+
+       if (A == B){
+           C = A + B;
+           System.out.println("O resultado é: " + C);
+       }else {
+           C = A * B;
+           System.out.println("O resultado é: " + C);
+       }
+
+       sc.close();
     }
 }
